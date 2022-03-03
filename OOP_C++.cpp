@@ -3,9 +3,13 @@
 
 #include <iostream>
 
+#include "Fruits.h"
+
 int main()
 {
-    std::cout << "Hello World!\n";
+    Fruits generic = Fruits();
+    Fruits apple = Fruits("Apple");
+    Fruits pears = Fruits("Pear", 6);
 }
 
 // Exécuter le programme : Ctrl+F5 ou menu Déboguer > Exécuter sans débogage
