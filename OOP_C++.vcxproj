@@ -141,9 +141,11 @@
   <ItemGroup>
     <ClCompile Include="Fruits.cpp" />
     <ClCompile Include="OOP_C++.cpp" />
+    <ClCompile Include="Pear.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Fruits.h" />
+    <ClInclude Include="Pear.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

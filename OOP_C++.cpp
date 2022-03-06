@@ -4,12 +4,21 @@
 #include <iostream>
 
 #include "Fruits.h"
+#include "Pear.h"
 
 int main()
 {
     Fruits generic = Fruits();
     Fruits apple = Fruits("Apple");
-    Fruits pears = Fruits("Pear", 6);
+    //Fruits pears = Fruits("Pear", 6);
+    Pear pear = Pear();
+    Pear pear_3 = Pear(3);
+
+    std::cout << "Number of apples : " << apple.get_type() << std::endl;
+    std::cout << "Type of fruit A : " << pear.get_type() << std::endl;
+    std::cout << "Number of fruit A : " << pear.get_quantity() << std::endl;
+    std::cout << "Type of fruit B : " << pear_3.get_type() << std::endl;
+    std::cout << "Number of fruit B : " << pear_3.get_quantity() << std::endl << std::endl;
 }
 
 // Exécuter le programme : Ctrl+F5 ou menu Déboguer > Exécuter sans débogage
