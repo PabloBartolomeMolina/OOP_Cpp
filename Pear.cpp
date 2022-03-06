@@ -5,7 +5,7 @@
 *	- Quantity set to 0.
 *	- Type set to Pear.
 */
-Pear::Pear() : Fruits("Pear", "150g")
+Pear::Pear() : Fruits("Pear", "150grams")
 {
 }
 
@@ -14,6 +14,6 @@ Pear::Pear() : Fruits("Pear", "150g")
 *	- Quantity set to the passed quantity.
 *	- Type set to Pear.
 */
-Pear::Pear(int quantity) : Fruits("Pear", "150g", quantity)
+Pear::Pear(int quantity) : Fruits("Pear", "150grams", quantity)
 {
 }

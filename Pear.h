@@ -3,7 +3,8 @@
 
 class Pear : public Fruits
 {
-
+private:
+	std::string weight;
 public:
 	// Constructors.
 	Pear();
