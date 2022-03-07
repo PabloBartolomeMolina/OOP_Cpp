@@ -6,8 +6,7 @@
 *	- Type set to Pear.
 */
 Pear::Pear() : Fruits("Pear", "150grams")
-{
-}
+{ }
 
 /*
 * Constructor to set a specific type of fruit and a specific quantity.
@@ -15,5 +14,13 @@ Pear::Pear() : Fruits("Pear", "150grams")
 *	- Type set to Pear.
 */
 Pear::Pear(int quantity) : Fruits("Pear", "150grams", quantity)
+{ }
+
+
+/*
+* Destructor of the class.
+*/
+Pear::~Pear()
 {
+	std::cout << "Inside the destructor" << std::endl;
 }
