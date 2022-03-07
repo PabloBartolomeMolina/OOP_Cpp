@@ -14,12 +14,10 @@ int main()
     Pear pear = Pear();
     Pear pear_3 = Pear(3);
 
-    std::cout << "Number of apples : " << apple.get_quantity() << std::endl;
-    std::cout << "Type of fruit A : " << pear.get_type() << std::endl;
-    std::cout << "Number of fruit A : " << pear.get_quantity() << std::endl;
-    std::cout << "Type of fruit B : " << pear_3.get_type() << std::endl;
-    std::cout << "Number of fruit B : " << pear_3.get_quantity() << std::endl;
-    std::cout << "Weight of a pear : " << pear_3.get_weight() << std::endl << std::endl;
+    std::cout << "Number of apples : " << apple.get_quantity() << std::endl << std::endl;
+
+    pear.getData();
+    pear_3.getData();
 }
 
 // Exécuter le programme : Ctrl+F5 ou menu Déboguer > Exécuter sans débogage
