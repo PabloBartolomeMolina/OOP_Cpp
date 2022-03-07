@@ -78,7 +78,7 @@ Fruits::Fruits(std::string type, std::string weight, int quantity)
 */
 Fruits::~Fruits()
 {
-	std::cout << "Inside the destructor" << std::endl;
+	std::cout << "Inside the destructor of Fruits." << std::endl;
 }
 /*
 * Function to set the quantity of a specific type of fruits.

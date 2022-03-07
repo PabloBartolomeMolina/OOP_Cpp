@@ -22,5 +22,5 @@ Pear::Pear(int quantity) : Fruits("Pear", "150grams", quantity)
 */
 Pear::~Pear()
 {
-	std::cout << "Inside the destructor" << std::endl;
+	std::cout << "Inside the destructor of Pear." << std::endl;
 }
