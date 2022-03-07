@@ -13,8 +13,9 @@ Fruits::Fruits()
 	this->type = "Unknown";
 	this->weight = "0grams";
 
+	std::cout << "NEW OBJECT CREATED " << std::endl;
 	std::cout << "Type of fruit : " << this->type << std::endl;
-	std::cout << "Quantity of fruit : " << this->quantity << std::endl << std::endl;
+	std::cout << "Quantity of fruit : " << this->quantity << std::endl;
 	std::cout << "Weight of fruit : " << this->weight << std::endl << std::endl;
 }
 
@@ -31,6 +32,7 @@ Fruits::Fruits(std::string type)
 	this->type = type;
 	this->weight = "0grams";
 
+	std::cout << "NEW OBJECT CREATED " << std::endl;
 	std::cout << "Type of fruit : " << this->type << std::endl;
 	std::cout << "Quantity of fruit : " << this->quantity << std::endl;
 	std::cout << "Weight of fruit : " << this->weight << std::endl << std::endl;
@@ -49,6 +51,7 @@ Fruits::Fruits(std::string type, std::string weight)
 	this->type = type;
 	this->weight = weight;
 
+	std::cout << "NEW OBJECT CREATED " << std::endl;
 	std::cout << "Type of fruit : " << this->type << std::endl;
 	std::cout << "Quantity of fruit : " << this->quantity << std::endl;
 	std::cout << "Weight of fruit : " << this->weight << std::endl << std::endl;
@@ -67,6 +70,7 @@ Fruits::Fruits(std::string type, std::string weight, int quantity)
 	this->weight = weight;
 	this->type = type;
 
+	std::cout << "NEW OBJECT CREATED " << std::endl;
 	std::cout << "Type of fruit : " << this->type << std::endl;
 	std::cout << "Quantity of fruit : " << this->quantity << std::endl;
 	std::cout << "Weight of fruit : " << this->weight << std::endl << std::endl;
