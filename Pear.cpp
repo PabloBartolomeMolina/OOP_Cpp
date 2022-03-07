@@ -24,3 +24,14 @@ Pear::~Pear()
 {
 	std::cout << "Inside the destructor of Pear." << std::endl;
 }
+
+
+/*
+* Get all data of the object in the console.
+*/
+void Pear::getData()
+{
+	std::cout << "Type of fruit : " << this->get_type() << std::endl;
+	std::cout << "Weight of fruit : " << this->get_weight() << std::endl;
+	std::cout << "Units of fruit : " << this->get_quantity() << std::endl << std::endl;
+}

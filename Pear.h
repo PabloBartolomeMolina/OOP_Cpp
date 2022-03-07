@@ -8,8 +8,11 @@ public:
 	// Constructors.
 	Pear();
 	Pear(int quantity);
+	
 	// Destructors.
 	~Pear();
 
+	// Other methods.
+	void getData();
 };
 
