@@ -8,6 +8,12 @@
 
 int main()
 {
+    
+}
+
+
+void testFruits()
+{
     Fruits generic = Fruits();
     Fruits apple = Fruits("Apple");
     //Fruits pears = Fruits("Pear", 6);
