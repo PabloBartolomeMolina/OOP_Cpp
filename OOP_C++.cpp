@@ -6,9 +6,13 @@
 #include "Fruits.h"
 #include "Pear.h"
 
+#include "Piece.h"
+
 int main()
 {
-    
+    Piece p = Piece();  // Default piece
+    Piece pw1 = Piece("pawn", "pw1", "white", "a2", 1); // White pawn.
+    Piece pb1 = Piece("pawn", "pb1", "black", "a7", 1); // Black pawn.
 }
 
 /// <summary>
