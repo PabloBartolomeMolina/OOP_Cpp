@@ -23,7 +23,7 @@ Piece::Piece()
 * Parametrized Constructor.
 *	- Type set to 0.
 *	- Name set to Unknown.
-*	- Value set to 0 grams.
+*	- Value set to 0 points.
 */
 Piece::Piece(std::string type, std::string name, std::string color, std::string currentPosition, int value)
 {
@@ -56,6 +56,7 @@ Piece::~Piece()
 */
 bool Piece::validMovement(std::string currentPosition, std::string newPosition)
 {
+	std::cout << "Generic" << std::endl;
 	return true;
 }
 
