@@ -7,12 +7,19 @@
 #include "Pear.h"
 
 #include "Piece.h"
+#include "Tower.h"
 
 int main()
 {
     Piece p = Piece();  // Default piece
     Piece pw1 = Piece("pawn", "pw1", "white", "a2", 1); // White pawn.
     Piece pb1 = Piece("pawn", "pb1", "black", "a7", 1); // Black pawn.
+
+    Tower tw1 = Tower();
+    tw1.setNewPosition("Tc1");
+    tw1.validMovement("c1", "c2");
+    Tower tw2 = Tower("Tw1", "white", "a1");
+    tw2.validMovement("c1", "c2");
 }
 
 /// <summary>
