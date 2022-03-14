@@ -45,3 +45,26 @@ Piece::~Piece()
 {
 	std::cout << this->name << " was destroyed." << std::endl;
 }
+
+
+// Private methods.
+
+/*
+* Check if the movement is possible given the currentPosition and the newPosition.
+* Note that this method will be override since each piece move differently.
+* Return True is just the default code for base class.
+*/
+bool Piece::validMovement(std::string currentPosition, std::string newPosition)
+{
+	return true;
+}
+
+// Public methods.
+
+/*
+* Set a new position according to parameter newPosition.
+*/
+void Piece::setNewPosition(std::string newPosition)
+{
+	this->currentPosition = newPosition;
+}

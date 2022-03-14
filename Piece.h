@@ -13,6 +13,8 @@ private:
 	std::string currentPosition;	// Current position of the piece.
 	int value;						// Value of piece: 1 for Pawn, 3 for Knight and for Bishop...
 
+	virtual bool validMovement(std::string currentPosition, std::string newPosition);
+
 public:
 	// Construtors.
 	Piece();
@@ -20,5 +22,8 @@ public:
 
 	// Destructor.
 	~Piece();
+
+	// Methods.
+	void setNewPosition(std::string newPosition);
 };
 
